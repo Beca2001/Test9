@@ -1,0 +1,24 @@
+{
+  "name": "test9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"playwright test",
+    "test:report": "playwright test --reporter=html && playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beca2001/Test9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beca2001/Test9/issues"
+  },
+  "homepage": "https://github.com/Beca2001/Test9#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
